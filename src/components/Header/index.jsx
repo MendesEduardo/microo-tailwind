@@ -1,5 +1,5 @@
 import Sidebar from '../Sidebar';
-import logo from '../../assets/images/logo.png';
+import logo from '/images/logo.png';
 import NavLinks from '../NavLinks';
 import ButtonLogin from '../ButtonLogin';
 

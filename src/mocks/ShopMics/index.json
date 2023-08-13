@@ -4,32 +4,32 @@
     "products": [
         {
             "id": 1,
-            "image": "src/assets/images/mics_img1.jpg",
+            "image": "/images/mics_img1.jpg",
             "alt": "Mic 1"
         },
         {
             "id": 2,
-            "image": "src/assets/images/mics_img2.jpg",
+            "image": "/images/mics_img2.jpg",
             "alt": "Mic 2"
         },
         {
             "id": 3,
-            "image": "src/assets/images/mics_img3.jpg",
+            "image": "/images/mics_img3.jpg",
             "alt": "Mic 3"
         },
         {
             "id": 4,
-            "image": "src/assets/images/mics_img4.jpg",
+            "image": "/images/mics_img4.jpg",
             "alt": "Mic 4"
         },
         {
             "id": 5,
-            "image": "src/assets/images/mics_img5.jpg",
+            "image": "/images/mics_img5.jpg",
             "alt": "Mic 5"
         },
         {
             "id": 6,
-            "image": "src/assets/images/mics_img6.jpg",
+            "image": "/images/mics_img6.jpg",
             "alt": "Mic 6"
         }
     ]

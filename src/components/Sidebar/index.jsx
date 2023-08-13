@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Menu from '../../assets/images/menu_btn.png';
+import Menu from '/images/menu_btn.png';
 import ButtonLogin from '../ButtonLogin';
 import Nav from '../Nav';
 

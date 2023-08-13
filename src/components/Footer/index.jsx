@@ -1,5 +1,5 @@
-import footer from '../../assets/images/footer.jpg';
-import logo from '../../assets/images/logo.png';
+import footer from '/images/footer.jpg';
+import logo from '/images/logo.png';
 import Button from '../Button';
 import Nav from '../Nav';
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';

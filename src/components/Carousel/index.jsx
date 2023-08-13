@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import test from '../../assets/images/test.png';
-import aspas from '../../assets/images/icon.png';
-import aspasRight from '../../assets/images/icon_right.png';
+import test from '/images/test.png';
+import aspas from '/images/icon.png';
+import aspasRight from '/images/icon_right.png';
 import CustomerOpinionMocks from '../../mocks/CustomerOpinion';
 
 export default function Carousel() {
