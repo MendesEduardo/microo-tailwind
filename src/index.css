@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+  body {
+    @apply font-roboto bg-micro-red;
+  }
+
+  body::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    @apply bg-micro-roxo;
+    border-radius: 4px;
+  }
+
+  body::-webkit-scrollbar-track {
+    @apply bg-micro-grayDark;
+  }
+}
+
+@layer components {
+  .micro-container {
+    @apply container m-auto px-6 py-20;
+  }
+  .micro-nav {
+    @apply flex flex-col gap-7 p-6 mt-10;
+  }
+  .micro-title {
+    @apply text-4xl sm:text-5xl text-white font-bold;
+  }
+  .micro-description {
+    @apply text-lg sm:px-40;
+  }
+  .micro-input {
+    @apply w-full h-16 bg-gray-800 px-4 outline-none focus:border-2 focus:border-micro-roxo;
+  }
+}
+
+.fade-out-in {
+  animation: fadeOutIn 0.5s ease-in-out;
+}
+
+@keyframes fadeOutIn {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

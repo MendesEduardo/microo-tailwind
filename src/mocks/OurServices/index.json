@@ -1,0 +1,24 @@
+{
+  "title": "Our Services",
+  "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you",
+  "products": [
+    {
+      "id": 1,
+      "name": "Mic line",
+      "details": "There are many variations of passages mmajority have suffered alteration in some form, by injected humour, or",
+      "image": "src/assets/images/service1.png"
+    },
+    {
+      "id": 2,
+      "name": "Mic Stand",
+      "details": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or",
+      "image": "src/assets/images/service2.png"
+    },
+    {
+      "id": 3,
+      "name": "Head mic",
+      "details": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or",
+      "image": "src/assets/images/service3.png"
+    }
+  ]
+}
