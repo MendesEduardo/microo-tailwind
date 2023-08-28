@@ -2,14 +2,14 @@ import Banner from '../../components/Banner';
 import About from '../About';
 import Contact from '../Contact';
 import Carousel from '../../components/Carousel';
-import Searvices from '../Searvices';
+import Services from '../Services';
 import Shop from '../Shop';
 
 export default function Homer() {
   return (
     <>
       <Banner />
-      <Searvices />
+      <Services />
       <About />
       <Shop />
       <Carousel />

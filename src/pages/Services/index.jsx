@@ -1,7 +1,7 @@
 import SearvicesMocks from '../../mocks/OurServices';
 import Card from './Card';
 
-export default function Searvices() {
+export default function Services() {
   const { title, description, products } = SearvicesMocks;
   return (
     <section className="bg-micro-grayDark">
